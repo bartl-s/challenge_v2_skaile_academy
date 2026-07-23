@@ -34,21 +34,41 @@ während der Challenge.
 
 ## Setup
 
-[Wie richtet man deinen Agenten ein? Wenn du es richtig gut machen willst:
-Schreib eine INSTALL.md, die an Claude adressiert ist — so wie beim
-Video-Cutter von Sebastian. Das gibt Bonuspunkte bei Doku/Teilbarkeit.]
+Siehe **[INSTALL.md](INSTALL.md)** — sie ist an Claude adressiert. Repo
+clonen, Claude Code darin öffnen und sagen: „Lies die INSTALL.md und richte
+AuditPilot für mich ein." Claude führt dich durch alles (dauert ~5 Minuten,
+kein API-Key nötig).
 
 ## Was während der Challenge entstanden ist
 
-[2-3 Stichpunkte: Was gab es vorher schon (siehe dein Check-in-Post), was
-ist neu dazugekommen?]
+**Vorher schon da (ehrlich benannt):** LinkedIn-Outreach mit AUDIT-Keyword
+(SendPilot), Sovreta-Markendesign, ein HTML-Design-Skill im Workspace.
+
+**Neu in der Challenge gebaut:**
+- Das `/audit`-Kommando: Firmenname + Website rein → belegbasiertes
+  Markdown-Audit raus (Lücken mit Befund/Kosten/Empfehlung + Quick Win)
+- Die Audit-Seiten-Vorlage im Marken-Look (`templates/`) inklusive
+  Termin-Buchung und LinkedIn-CTA
+- Der komplette Loop lief an Tag 1 schon einmal echt durch: realer Lead →
+  Audit → persönliche Web-Seite, live deployt und per DM verschickt
 
 ## Learnings
 
-[Die 2-3 wichtigsten Dinge, die du beim Bauen gelernt hast — auch Fails!]
+1. **Scroll-Animationen brauchen ein Sicherheitsnetz.** Die
+   Einblende-Effekte (IntersectionObserver) ließen Inhalte in manchen
+   Browsern unsichtbar. Fix: Nach 2,5 Sekunden wird alles eingeblendet,
+   egal was der Observer tut. Gefunden, weil der Agent seine eigene Seite
+   per Screenshot geprüft hat.
+2. **Öffentliches Repo und Kundendaten von Anfang an trennen.** Echte
+   Audits enthalten Personendaten — der Ordner `audits/` ist deshalb
+   gitignored, ins Repo kommt nur die anonymisierte Vorlage. Die
+   Live-Seiten stehen auf `noindex`: nur wer den Link hat, sieht sie.
+3. **Die Seite schlägt das Video.** Statt pro Lead ~30 Minuten Loom
+   aufzunehmen, entsteht in wenigen Minuten eine persönliche Audit-Seite,
+   die hochwertiger wirkt und einen buchbaren Termin gleich mitbringt.
 
 ---
 
 **Demo-Video:** [Link zu Loom oder YouTube unlisted — EIN Durchlauf, ungeschnitten]
 
-*SKAILE Academy Building Challenge — [Monat/Jahr]*
+*SKAILE Academy Building Challenge — Juli 2026*
