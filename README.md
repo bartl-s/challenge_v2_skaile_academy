@@ -1,4 +1,4 @@
-# SKAILE Building Challenge
+# AuditPilot — SKAILE Building Challenge
 
 > Diese Datei füllst du im Laufe der Challenge aus. Die Platzhalter in eckigen
 > Klammern ersetzt du durch deine Inhalte — dein Claude Code hilft dir dabei
@@ -6,19 +6,31 @@
 
 ## Das Problem
 
-[1-2 Sätze: Wessen Problem löst dein Agent? Was kostet das Problem heute an
-Zeit, Geld oder Nerven?]
+Mein LinkedIn-Outreach verspricht interessierten Leads ein persönliches
+AI-Audit — bisher hieß das: pro Lead ein Loom-Video aufnehmen. Das kostet
+mich jedes Mal 20–30 Minuten, die ich neben Festanstellung und Kundenprojekten
+nicht habe, und wird so zum Flaschenhals meiner Akquise.
 
 ## Was der Agent macht
 
-[2-3 Sätze: Input rein → was passiert → Ergebnis raus. Einfach erklärt, so
-dass es jemand ohne Technik-Hintergrund versteht.]
+Ich gebe dem Agenten Name und Website (oder LinkedIn) eines Leads. Er
+recherchiert die Firma, findet 3–5 konkrete Automatisierungs-Lücken und baut
+daraus eine persönliche Audit-Web-Seite in meinem Marken-Look — inklusive
+Handlungsempfehlungen und Link zum Erstgespräch. Am Ende bekomme ich einen
+fertigen Link, den ich dem Lead einfach per DM schicke. Statt 30 Minuten
+Video: ein Befehl, wenige Minuten, hochwertigeres Ergebnis.
 
 ## Stack
 
-- [ ] Claude Code (Agent / Skills)
+- [x] Claude Code (Agent / Skills)
 - [ ] n8n
 - [ ] Sonstiges: [was?]
+
+**Vorarbeit (existierte schon vor der Challenge, wird ehrlich genannt):**
+LinkedIn-Outreach mit AUDIT-Keyword läuft bereits (SendPilot), Marken-Design
+(Sovreta) und ein HTML-Design-Skill existieren in meinem Workspace. Der
+AuditPilot-Agent selbst (Recherche → Audit → Seite → Link) entsteht komplett
+während der Challenge.
 
 ## Setup
 
