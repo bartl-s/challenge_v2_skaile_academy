@@ -17,6 +17,15 @@ Erzeuge ein persönliches AI-Audit für einen Lead.
    - **Nächster Schritt** — CTA mit Erstgespräch-Link (Platzhalter `[CALL-LINK]`)
 5. **Ton:** Deutsch, per Du (LinkedIn-Kontext), Klartext, konkret. Keine KI-Floskeln, keine Dreiergruppen-Rhetorik, kein Buzzword-Bingo. Es soll klingen wie eine ehrliche Einschätzung von einem Profi, nicht wie ein Verkaufsprospekt.
 
+## Schritt 2 (optional): Audit-Web-Seite
+
+Aus dem Markdown-Audit eine persönliche Web-Seite bauen: Vorlage
+`templates/audit-seite-vorlage.html` kopieren, alle `{{PLATZHALTER}}` mit dem
+Audit-Inhalt füllen (pro Lücke eine Karte, Karte duplizieren). Die fertige
+Seite bekommt `noindex` und wird als Unterseite `/audit/<firmen-slug>/`
+deployt — nur wer den Link hat, sieht sie. Echte Kunden-Seiten NIE in dieses
+öffentliche Repo committen (audits/ ist gitignored).
+
 ## Grenzen
 
 - Nichts behaupten, was die Website nicht hergibt. Wenn unklar: als offene Frage ins Audit schreiben („Wie macht ihr heute X?").
