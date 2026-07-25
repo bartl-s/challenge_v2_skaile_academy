@@ -1,7 +1,9 @@
 # Drehbuch Demo-Video (2–3 Min, EIN Take, ungeschnitten)
 
-**Demo-Lead:** die eigene alte Agentur-Seite (makeomatic.at) — echte Recherche,
-aber keine fremden Kundendaten im öffentlichen Video.
+**Demo-Lead:** die eigene Marken-Seite **www.sovreta.com** (makeomatic.at
+leitet inzwischen dorthin um) — echte Recherche, aber keine fremden
+Kundendaten im öffentlichen Video. Der Probelauf liegt als
+`examples/sovreta-beispiel-audit.md` im Repo.
 
 **Vorbereitung (vor der Aufnahme):**
 - Probelauf machen und Zeit stoppen. Dauert der volle Lauf über 3 Minuten:
