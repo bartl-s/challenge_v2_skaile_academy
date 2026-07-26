@@ -69,6 +69,6 @@ kein API-Key nötig).
 
 ---
 
-**Demo-Video:** [Link zu Loom oder YouTube unlisted — EIN Durchlauf, ungeschnitten]
+**Demo-Video:** https://www.berrycast.com/conversations/f6182316-9edf-5183-bc22-223d84d70b00 — ein Durchlauf, ungeschnitten
 
 *SKAILE Academy Building Challenge — Juli 2026*
